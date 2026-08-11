@@ -6,11 +6,11 @@ A full-stack SRE monitoring and incident response platform — built from scratc
 
 | Layer | Component | Purpose |
 |---|---|---|
-| 1 | `agents/` | Metric collection — CPU, memory, disk, network |
+| 1 | `agents/` | Metric collection - CPU, memory, disk, network |
 | 2 | `pipeline/` | Log aggregation and processing |
 | 3 | `aws/` | Cloud storage, DynamoDB, CloudWatch integration |
 | 4 | `terraform/` | Infrastructure as Code for all AWS resources |
-| 5 | `ci/` | GitHub Actions — automated testing and deployment |
+| 5 | `ci/` | GitHub Actions - automated testing and deployment |
 
 ## Status
 
