@@ -2,7 +2,7 @@ import json
 import socket
 from datetime import datetime
 
-LOG_FILE = "/Users/mac/sre-toolkit/linux/sample.log"
+LOG_FILE = "logs/sample.log"
 
 # Collect metadata
 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
